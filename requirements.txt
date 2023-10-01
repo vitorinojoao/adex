@@ -1,0 +1,2 @@
+# Dependencies for ADEX
+numpy>=1.19.5,<2

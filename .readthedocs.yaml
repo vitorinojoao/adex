@@ -1,0 +1,21 @@
+# Configuration for Read the Docs
+version: 2
+
+# Python version
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.9"
+
+# Sphinx configuration file
+sphinx:
+  configuration: docs/source/conf.py
+
+# Optional PDF format
+formats:
+  - pdf
+
+# Python requirements file
+python:
+  install:
+    - requirements: docs/source/requirements.txt

@@ -1,2 +1,0 @@
-# adex
-ADEX
